@@ -1,4 +1,4 @@
-import { FieldPacket, ResultSetHeader, RowDataPacket } from "mysql2";
+import { FieldPacket, ResultSetHeader, RowDataPacket } from "mysql2/promise";
 import { Usuarios } from "../models/usuarios";
 import { getPoolConnection } from "./data";
 import { Pool } from "mysql2/promise";
